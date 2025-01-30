@@ -1,0 +1,13 @@
+{
+  "workbench.colorCustomizations": {
+    "editor.background": "#000",
+    "tab.border": "#0080ff",
+    "scrollbarSlider.activeBackground": "#fffb00",
+    "scrollbarSlider.background": "#fffb00a2",
+    "scrollbarSlider.hoverBackground": "#fffb00b5",
+    "sideBar.border": "#0080ff",
+    "activityBar.background": "#00a500",
+    "titleBar.activeBackground": "#005356",
+    "titleBar.activeForeground": "#FEFAFA"
+  }
+}
