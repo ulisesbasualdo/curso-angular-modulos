@@ -1,0 +1,136 @@
+{
+  "workbench.colorCustomizations": {
+    "editor.background": "#000",
+    "scrollbarSlider.activeBackground": "#fffb00",
+    "scrollbarSlider.background": "#fffb00a2",
+    "scrollbarSlider.hoverBackground": "#fffb00b5",
+    "sideBar.border": "#0080ff",
+    "activityBar.background": "#2d1467",
+    "titleBar.activeBackground": "#e48b05",
+    "titleBar.activeForeground": "#000000",
+    "tab.activeBackground": "#3344a8",
+    "tab.inactiveBackground": "#3333",
+    "tab.border": "#3300ff40",
+    "editorIndentGuide.background1": "#a9ffa565",
+    "editorIndentGuide.activeBackground1": "#3dff33",
+    "sideBar.background":"#000009",
+    "terminal.background":"#000003",
+    "minimap.findMatchHighlight":"#fff200dd",
+    "minimap.selectionOccurrenceHighlight":"#fff200dd",
+    "minimap.selectionHighlight":"#fff200dd",
+  },
+  "terminal.integrated.fastScrollSensitivity": 5,
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.mouseWheelZoom": true,
+  "vscode-edge-devtools.webRoot": "${workspaceFolder}/src/",
+  "emmet.triggerExpansionOnTab": true,
+  "github.copilot.chat.editor.temporalContext.enabled": true,
+  "editor.semanticTokenColorCustomizations": {
+    "rules": {
+      "class": {
+        "foreground": "#ffc757",
+      },
+    },
+  },
+  "editor.tokenColorCustomizations": {
+  "textMateRules": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#ffffff5b"
+      }
+    },
+    {
+      "scope": "punctuation.definition.string.begin",
+      "settings": {
+        "foreground": "#ffee00"
+      }
+    },
+    {
+      "scope": "punctuation.definition.string.end",
+      "settings": {
+        "foreground": "#ffee00"
+      }
+    },
+    {
+      "scope": "punctuation.separator.continuation", // punto y coma
+      "settings": {
+        "foreground": "#ff7300"
+      }
+    },
+    {
+      //paréntesis
+      "scope": "punctuation.definition.parameters.begin",
+      "settings": {
+        "foreground": "#ff7300"
+      }
+    },
+    {
+      "scope": "punctuation.definition.parameters.end",
+      "settings": {
+        "foreground": "#ff7300"
+      }
+    },
+    {
+      "scope": "punctuation.definition.string.template.begin", // comillas de apertura "`"
+      "settings": {
+        "foreground": "#ffee00"
+      }
+    },
+    {
+      "scope": "punctuation.definition.string.template.end", // comillas de cierre "`"
+      "settings": {
+        "foreground": "#ffee00"
+      }
+    },
+    {
+      "scope": "punctuation.definition.template-expression.begin", // llaves de apertura "{{"
+      "settings": {
+        "foreground": "#ff8800"
+      }
+    },
+    {
+      "scope": "punctuation.definition.template-expression.end", // llaves de cierre "}}"
+      "settings": {
+        "foreground": "#ff8800"
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.begin", // aperturas de tag "<"
+      "settings": {
+        "foreground": "#fffb00"
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.end", // cierres de tag ">"
+      "settings": {
+        "foreground": "#fffb00"
+      }
+    },
+    {
+      "scope": "keyword.operator.logical", // igualdad dentro de un if de angular "==="
+      "settings": {
+        "foreground": "#ff7b00"
+      }
+    },
+    {
+      "scope": "keyword.control.at-rule", // arroba del if de la nueva sintaxis de angular "@"
+      "settings": {
+        "foreground": "#fff700"
+      }
+    },
+    {
+      "scope": "punctuation.definition.block", // llaves "{}"
+      "settings": {
+        "foreground": "#ffee00"
+      }
+    },
+    {
+      "scope": "entity.name.tag", // color de los tag según la indentación
+      "settings": {
+        "foreground": "#ff961f"
+      }
+    }
+  ]
+}
+}

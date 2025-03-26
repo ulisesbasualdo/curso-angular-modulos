@@ -1,0 +1,21 @@
+@let games = tags;
+
+<div class="bg-dark border-right p-3" id="sidebar">
+  <h3 class="text-light">GifsApp</h3>
+  <hr class="text-white">
+
+  <div class="list-group list-reset">
+    @for (game of tags; track game) {
+      <button
+        (click)="searchTag(game)"
+        type="button"
+        class="list-group-item list-group-item-action">
+        {{ game | titlecase }}
+      </button>
+    }
+  </div>
+
+  <hr class="text-white">
+  <pre class="text-white">{{games}}</pre>
+
+</div>
